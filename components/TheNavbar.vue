@@ -127,7 +127,7 @@
 #menu-toggle:checked + #menu {
   display: block;
 }
-a.active {
+a.nuxt-link-exact-active {
   @apply text-accent;
 }
 /* a:hover,
