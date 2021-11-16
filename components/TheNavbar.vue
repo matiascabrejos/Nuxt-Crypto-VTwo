@@ -1,7 +1,7 @@
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+  <nav class="flex items-center justify-between flex-wrap p-6 bg-gray-900">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
-      <span class="font-semibold text-xl tracking-tight">Crypto App</span>
+      <span class="font-semibold text-xl tracking-tight">ENCRYPTION</span>
     </div>
 
     <label
@@ -15,9 +15,9 @@
         py-2
         border
         rounded
-        text-teal-200
         border-teal-400
-        hover:text-white hover:border-white
+        text-white
+        hover:text-accent hover:border-accent
       "
       for="menu-toggle"
       ><svg
@@ -41,7 +41,7 @@
             block
             mt-4
             lg:inline-block lg:mt-0
-            text-teal-200
+            text-white
             hover:text-accent
             mr-4
             text-base
@@ -69,10 +69,9 @@
             block
             mt-4
             lg:inline-block lg:mt-0
-            text-teal-200
             hover:text-accent
             mr-4
-            text-base
+            text-white text-base
           "
         >
           <svg
@@ -97,9 +96,8 @@
             block
             mt-4
             lg:inline-block lg:mt-0
-            text-teal-200
             hover:text-accent
-            text-base
+            text-white text-base
           "
         >
           <svg
@@ -129,14 +127,5 @@
 }
 a.nuxt-link-exact-active {
   @apply text-accent;
-}
-/* a:hover,
-a.active {
-  color: red;
-  border-color: black;
-  background-color: white;
-} */
-nav {
-  background-color: #171717;
 }
 </style>

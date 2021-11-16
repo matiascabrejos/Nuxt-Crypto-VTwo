@@ -1,7 +1,6 @@
 <template>
   <div
-    class="flex items-center w-screen min-h-screen bg-gray-900"
-    style="font-family: 'Muli', sans-serif"
+    class="flex items-center w-screen min-h-screen bg-white"
   >
     <div class="container ml-auto mr-auto flex flex-wrap items-start">
       <div class="w-full pl-5 lg:pl-2 mb-4 mt-4"></div>
@@ -21,10 +20,10 @@
             duration-300
           "
         >
-          <div class="rounded-lg p-4 bg-indigo-500 flex flex-col">
+          <div class="rounded-lg p-4 bg-gray-900 flex flex-col">
             <div>
               <h5
-                class="text-right"
+                class="text-right font-semibold"
                 v-bind:style="{
                   color: crypto.price_change_percentage_24h > 0 ? 'green' : 'red',
                 }"
@@ -34,12 +33,12 @@
               <h5 class="text-white text-2xl font-bold leading-none">
                 {{ crypto.name }}
               </h5>
-              <span class="text-xs text-gray-400 leading-none">{{
+              <span class="text-xs text-white leading-none font-semibold">{{
                 crypto.symbol.toUpperCase()
               }}</span>
             </div>
             <div class="flex items-center">
-              <div class="text-lg text-white font-light">
+              <div class="text-lg text-white font-semibold">
                 {{ crypto.current_price }} US$
               </div>
               <img
