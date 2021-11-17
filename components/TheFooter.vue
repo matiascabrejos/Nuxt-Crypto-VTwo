@@ -8,6 +8,9 @@
       <nuxt-link to="/cryptopanel" class="link link-hover"
         >Panel View</nuxt-link
       >
+            <nuxt-link to="/news" class="link link-hover"
+        >News</nuxt-link
+      >
     </div>
     <div>
       <div class="grid grid-flow-col gap-4 text-white">
