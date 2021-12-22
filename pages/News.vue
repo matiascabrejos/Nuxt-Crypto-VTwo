@@ -1,6 +1,7 @@
 <template>
   <div class="bg-white">
     <div class="max-w-screen-xl mx-auto relative py-8">
+      <h1 class="text-gray-900 font-medium text-center text-xl pb-2">LATEST CRYPTOCURRENCY NEWS</h1>
       <div class="md:flex">
         <div class="md:w-6/12 lg:w-8/12 p-5">
           <div
@@ -41,8 +42,7 @@
                 justify-between
                 items-center
               "
-            >
-            </div>
+            ></div>
             <main class="p-8 z-10">
               <a
                 href="#"
@@ -73,14 +73,10 @@
             <div class="text-base">
               <p
                 href="#"
-                class="
-                  text-gray-900
-                  font-medium
-                  leading-none
-                  uppercase
-                "
-                >Why Bitcoin, Ethereum, and Solana Are All Crashing Today</p
+                class="text-gray-900 font-medium leading-none uppercase"
               >
+                Why Bitcoin, Ethereum, and Solana Are All Crashing Today
+              </p>
             </div>
           </div>
           <div class="flex items-start border-b mb-3 pb-3 border-gray-900">
@@ -93,14 +89,11 @@
             <div class="text-base">
               <p
                 href="#"
-                class="
-                  text-gray-900
-                  font-medium
-                  leading-none
-                  uppercase
-                "
-                >BITCOIN MINING USES AS MUCH ENERGY AS THE ENTIRE COUNTRY OF DENMARK</p
+                class="text-gray-900 font-medium leading-none uppercase"
               >
+                BITCOIN MINING USES AS MUCH ENERGY AS THE ENTIRE COUNTRY OF
+                DENMARK
+              </p>
             </div>
           </div>
           <div class="flex items-start border-b mb-3 pb-3 border-gray-900">
@@ -113,14 +106,10 @@
             <div class="text-base">
               <p
                 href="#"
-                class="
-                  text-gray-900
-                  font-medium
-                  leading-none
-                  uppercase
-                "
-                >India to Ban Crypto as Payment Method but Regulate as Asset</p
+                class="text-gray-900 font-medium leading-none uppercase"
               >
+                India to Ban Crypto as Payment Method but Regulate as Asset
+              </p>
             </div>
           </div>
           <div class="flex items-start border-b mb-3 pb-3 border-gray-900">
@@ -133,14 +122,10 @@
             <div class="text-base">
               <p
                 href="#"
-                class="
-                  text-gray-900
-                  font-medium
-                  leading-none
-                  uppercase
-                "
-                >SEC Reportedly Looking Into BlockFi’s Crypto Yield Products</p
+                class="text-gray-900 font-medium leading-none uppercase"
               >
+                SEC Reportedly Looking Into BlockFi’s Crypto Yield Products
+              </p>
             </div>
           </div>
         </div>
