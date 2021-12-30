@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-white screen-height">
     <div class="max-w-screen-xl mx-auto relative py-8">
       <h1 class="text-gray-900 font-medium text-center text-xl pb-2">LATEST CRYPTOCURRENCY NEWS</h1>
       <div class="md:flex">
@@ -133,3 +133,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.screen-height {
+  min-height: 80vh;
+}
+</style>

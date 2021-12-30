@@ -1,20 +1,20 @@
 <template>
   <footer class="p-10 footer bg-gray-900 text-base-content footer-center">
     <div class="grid grid-flow-col gap-4 text-white">
-      <nuxt-link to="/" class="link link-hover">Home</nuxt-link>
-      <nuxt-link to="/cryptotable" class="link link-hover"
+      <nuxt-link to="/" class="hover:text-accent">Home</nuxt-link>
+      <nuxt-link to="/cryptotable" class="hover:text-accent"
         >Table View</nuxt-link
       >
-      <nuxt-link to="/cryptopanel" class="link link-hover"
+      <nuxt-link to="/cryptopanel" class="hover:text-accent"
         >Panel View</nuxt-link
       >
-            <nuxt-link to="/news" class="link link-hover"
+            <nuxt-link to="/news" class="hover:text-accent"
         >News</nuxt-link
       >
     </div>
     <div>
       <div class="grid grid-flow-col gap-4 text-white">
-        <a>
+        <a class="hover:text-accent">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -27,7 +27,7 @@
             ></path>
           </svg>
         </a>
-        <a>
+        <a class="hover:text-accent">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -40,7 +40,7 @@
             ></path>
           </svg>
         </a>
-        <a>
+        <a class="hover:text-accent">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
