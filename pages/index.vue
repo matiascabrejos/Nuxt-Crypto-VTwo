@@ -1,5 +1,5 @@
 <template>
-  <div class="hero pt-28 pb-60 bg-white">
+  <div class="hero pt-28 pb-60 bg-gray-200">
     <div class="text-center hero-content text-neutral-content">
       <div class="max-w-md">
         <h1 class="mb-5 text-xl lg:text-5xl md:text-5xl font-bold text-accent">ENCRYPTION MORE THAN JUST A CRYPTOCURRENCY SITE</h1>

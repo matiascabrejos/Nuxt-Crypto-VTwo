@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center w-screen min-h-screen bg-white"
+    class="flex items-center w-screen min-h-screen bg-gray-200"
   >
     <div class="container ml-auto mr-auto flex flex-wrap items-start">
       <div class="w-full pl-5 lg:pl-2 mb-4 mt-4"></div>
