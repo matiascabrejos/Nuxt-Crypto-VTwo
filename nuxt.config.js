@@ -1,4 +1,7 @@
+require("dotenv").config();
+
 export default {
+  mode: "universal",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "nuxt-crypto-app",
